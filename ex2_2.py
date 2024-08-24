@@ -32,3 +32,4 @@ elif (idade >= 5 and idade <= 7):
     print(f'\nO nadador com {idade} anos é considerado INFANTIL A!')
 else:
     print(f'\nA idade digitada não corresponde a nenhuma das categorias disponíveis!')
+    
