@@ -3,6 +3,8 @@
     1.1 A função calcWin consiste em simular uma calculadora do windows com algumas operações básicas
     1.2 Como a função não exige parâmetros, não há necessidade de inserir nenhum dado no chamamento da função
 '''
+
+
 def calcWin():
     '''
     1.1a A função é iniciada com o loop do tipo while no qual permite que o menu seja exibido ao final de cada operação, a menos que o usuário selecione a opção sair[8]
@@ -33,10 +35,7 @@ def calcWin():
         print('Na operação de radiciação, o primeiro número(x) é a base e o segundo(y), o expoente!')
         x=float(input('\nDigite o 1º número: '))
         y=float(input('\nDigite o 2º número: '))
-        '''
         
-        '''
-            
         if opt==1:
             print(f'\n{x} + {y} = {x+y}')
         elif opt==2:
@@ -54,7 +53,5 @@ def calcWin():
         else:
             print('\nERRO!')
 
-'''
 
-'''
 calcWin()
